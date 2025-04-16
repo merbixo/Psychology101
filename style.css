@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* Header */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+}
+
+/* Navigation Sidebar (Simple version) */
+nav.sidebar {
+    float: left;
+    width: 20%;
+    background: #e2e2e2;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+nav.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+nav.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 5px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+nav.sidebar ul li a:hover,
+nav.sidebar ul li a.active {
+    background-color: #0779e4;
+    color: #fff;
+}
+
+/* Main Content Area */
+main.content {
+    float: right;
+    width: 75%;
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main.content h2 {
+    color: #0779e4;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+}
+
+main.content h3 {
+    color: #35424a;
+    margin-top: 25px;
+}
+
+main.content img.content-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Center images */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background: #0779e4;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+.button:hover {
+    background: #055aab;
+}
+
+.nav-buttons {
+    margin-top: 30px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+/* Footer */
+footer {
+    clear: both; /* Important to clear floats */
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: #aaa;
+    background: #35424a;
+    font-size: 0.9em;
+}
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
