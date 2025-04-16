@@ -1,0 +1,9 @@
+# _config.yml
+theme: jekyll-theme-minimal # Or whichever theme you chose
+title: Introductory Psychology Course
+description: An open-source overview of the major fields within psychology.
+github:
+  is_project_page: true
+  repository_url: https://github.com/<your-username>/<repository-name> # Update this
+markdown: kramdown # Standard Markdown processor
+# Add other theme-specific configurations if needed
